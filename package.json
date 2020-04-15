@@ -1,5 +1,5 @@
 {
-  "name": "@c7s/http-errors",
+  "name": "@melmedia/http-errors",
   "version": "0.0.1",
   "license": "UNLICENSED",
   "main": "dist/index.js",

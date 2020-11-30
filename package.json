@@ -8,9 +8,10 @@
     "build": "tsc"
   },
   "dependencies": {
-    "class-validator": "0.10.1"
+    "class-validator": "0.12.2"
   },
   "devDependencies": {
+    "@types/validator": "13.1.0",
     "typescript": "3.8.3"
   }
 }

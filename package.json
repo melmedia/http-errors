@@ -8,7 +8,6 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@types/validator": "13.1.0",
     "class-validator": "0.12.2"
   },
   "devDependencies": {

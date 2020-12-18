@@ -4,7 +4,7 @@ export type FieldValidationError = {
   [property: string]: string[] | ValidationErrorItems,
 };
 
-export type ValidationErrorItems = FieldValidationError | FieldValidationError[];
+export type ValidationErrorItems = FieldValidationError | (FieldValidationError | null)[];
 
 export interface ValidationErrorData extends ErrorData {
   validationErrors: ValidationErrorItems;
